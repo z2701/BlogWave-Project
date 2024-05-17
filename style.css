@@ -1,0 +1,46 @@
+.navbar-brand{
+      font-family: 'Arial', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      color: #007BFF; /* Blue color */
+      position: relative;
+      display: inline-block;
+      text-transform: uppercase;
+      padding-left: 10px;
+  }
+  .navbar-brand .wave {
+      color: #0056b3; /* Darker blue for contrast */
+  }
+  .navbar-brand::after {
+     content: '';
+      position: absolute;
+      width: 100%;
+      height: 10px;
+      background: linear-gradient(90deg, transparent, #007BFF, transparent);
+      bottom: -5px;
+      left: 0;
+      border-radius: 50%;
+      transform: rotate(1deg);
+  }
+  #navbarNav{
+      margin: auto;
+      color: rgb(204, 95, 22);
+  }
+  .nav-item{
+       font-family: 'Arial', sans-serif;
+       color: #007BFF; /* Blue color */
+       position: relative;
+       display: inline-block;
+       text-transform: uppercase;
+       padding-left: 10px;
+ 
+  }
+
+
+  /* h1,p{
+      padding-left: 20%;
+  } */
+
+  .blog-post{
+    padding-left: 0%;
+  }
